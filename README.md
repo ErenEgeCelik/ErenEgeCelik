@@ -14,4 +14,4 @@ Two-month market-making research program: Brownian-probit fair value, queue-posi
 
 I model markets as MDPs the way physics uses free-body diagrams: first the qualitative philosophy of how the market actually works, then the MDP skeleton, then probability calculations from quality data to fill the chains. I kill my own models when the data says so.
 
-🌐 [personal-website-new-phi-rose.vercel.app](https://personal-website-new-phi-rose.vercel.app) · 📫 erenege3500@gmail.com
+🌐 [https://www.erenege.dev/](https://www.erenege.dev/) · 📫 erenege3500@gmail.com
