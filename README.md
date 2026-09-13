@@ -1,17 +1,20 @@
 # Eren Ege Çelik
 
-Independent researcher working on quantitative trading and market microstructure.
-I publish research, papers and code at [erenege.dev](https://www.erenege.dev).
+Independent researcher in quantitative trading and market microstructure.
+I study how information becomes a price, a probability and an executable decision.
 
 ## Selected research
 
-- **[Weather prediction markets](https://github.com/ErenEgeCelik/weather-kalman-replay)** —
-  temperature-state estimation, observation-driven outcome probabilities and an offline recorded-data replay.
+- **[Weather prediction markets](https://github.com/ErenEgeCelik/weather-market-research)** —
+  observation pipelines, temperature and outcome models, trading-decision research and execution engineering.
+  [Research map](https://github.com/ErenEgeCelik/weather-market-research/blob/main/docs/research-map.md) ·
+  [Contributions and code](https://github.com/ErenEgeCelik/weather-market-research/blob/main/CONTRIBUTIONS.md).
 - **[BTC five-minute markets](https://github.com/ErenEgeCelik/btc-5m-market-microstructure)** —
-  market pricing, queue and execution assumptions, policy experiments and an aggregate result verifier.
-  [Read the working paper](https://www.erenege.dev/writing/polymarket-5min-microstructure).
+  Brownian-probit pricing, order-book microstructure, inventory and EV decomposition, and controlled policy experiments.
+  [Working paper](https://www.erenege.dev/writing/polymarket-5min-microstructure).
 
-My next research direction includes machine learning and AI. New work will appear here as it is ready.
+I publish completed work here and at [erenege.dev](https://www.erenege.dev).
+My next research direction includes machine learning and AI.
 
 [Website](https://www.erenege.dev) · [Writing](https://www.erenege.dev/writing) ·
 [Email](mailto:erenege3500@gmail.com)
