@@ -29,16 +29,30 @@ comparisons, leave-one-day-out feature analysis, source-substituted replay and j
 **Question:** How do short-horizon information, book response, queue access and inventory exposure
 combine into a market-making decision?
 
-The public package covers Brownian-probit market pricing, binary inventory accounting, queue/fill
-assumptions, EV decomposition and controlled policy experiments under the historical point-settlement
-mechanism. Its deeper methods and estimator coverage are being expanded from the original research.
+| Contribution | Technical evidence |
+|---|---|
+| Brownian-probit price construction; feed/anchor diagnostics; constant and feature-dependent scales; hybrid offset states | [Model equations and versions](https://github.com/ErenEgeCelik/btc-5m-market-microstructure/blob/main/docs/market-pricing-model.md), [estimation method](https://github.com/ErenEgeCelik/btc-5m-market-microstructure/blob/main/docs/pricing-estimation.md) |
+| Archived scale-feature analysis with explicit feature availability and model-selection boundaries | [358-row study and figure](https://github.com/ErenEgeCelik/btc-5m-market-microstructure/blob/main/data/pricing/README.md), [runnable pricing audit](https://github.com/ErenEgeCelik/btc-5m-market-microstructure/blob/main/examples/pricing_walkthrough.py) |
+| Causal feed/book alignment, recorder health, queue access, metadata caching and submission timing | [Data and execution engineering](https://github.com/ErenEgeCelik/btc-5m-market-microstructure/blob/main/docs/data-engineering.md), [queue mechanics](https://github.com/ErenEgeCelik/btc-5m-market-microstructure/blob/main/docs/queue-and-fill-mechanics.md) |
+| Feed-to-book direction, timing, confirmation and saturation measurements | [Market response](https://github.com/ErenEgeCelik/btc-5m-market-microstructure/blob/main/docs/market-response.md), [aggregate audit](https://github.com/ErenEgeCelik/btc-5m-market-microstructure/blob/main/estimators/mechanics_audit.py) |
+| Split-inventory accounting, joint-fill outcomes, conditional drift and book-priced one-step EV | [EV derivation](https://github.com/ErenEgeCelik/btc-5m-market-microstructure/blob/main/docs/mdp-ev-chain.md), [policy implementation](https://github.com/ErenEgeCelik/btc-5m-market-microstructure/blob/main/src/btc5m_research/policy.py) |
+| Inventory and directional policy variants, paired output comparisons and execution diagnostics | [Strategies and results](https://github.com/ErenEgeCelik/btc-5m-market-microstructure/blob/main/docs/strategies.md), [368-slot paired audit](https://github.com/ErenEgeCelik/btc-5m-market-microstructure/blob/main/estimators/policy_audit.py) |
 
-[Research repository](https://github.com/ErenEgeCelik/btc-5m-market-microstructure) ·
-[Working paper](https://github.com/ErenEgeCelik/btc-5m-market-microstructure/blob/main/paper/manuscript.md)
+[Contribution IDs and application wording](https://github.com/ErenEgeCelik/btc-5m-market-microstructure/blob/main/CONTRIBUTIONS.md) ·
+[Machine-readable claims](https://github.com/ErenEgeCelik/btc-5m-market-microstructure/blob/main/evidence/claim_ledger.yaml) ·
+[Reproduction commands](https://github.com/ErenEgeCelik/btc-5m-market-microstructure/blob/main/REPRODUCIBILITY.md)
 
-Pricing-fit quality, forward prediction, modeled policy results and realized trading outcomes are
-different claims. The paper and repository identify their data windows, measurement units and
-evaluation status. Historical findings are not presented as a current tradable edge.
+The [binary-risk derivation](https://github.com/ErenEgeCelik/btc-5m-market-microstructure/blob/main/docs/binary-risk-and-market-making.md)
+connects the Brownian model to terminal Bernoulli inventory risk and explains the Avellaneda–Stoikov
+comparison. Its exact CARA diagnostic is publication exposition; the historical implementation
+uses book-priced one-step EV with inventory rules, not a solved Bellman or A-S optimizer.
+
+Pricing fit, forward prediction, modeled policy gains and realized trading outcomes are different
+claims. The experiment records preserve sample units, versions, model-selection limitations and
+replay assumptions under historical point settlement. The earlier paper remains available while its
+next revision is prepared from these expanded methods.
+
+Stable release reference: [crypto research expansion, September 2026](https://github.com/ErenEgeCelik/btc-5m-market-microstructure/tree/6db010205b3aa3b8b4ee1d5715e06c47de8023b7).
 
 ## Using this record
 
