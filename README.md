@@ -11,7 +11,7 @@ I study how information becomes a price, a probability and an executable decisio
   [Contributions and code](https://github.com/ErenEgeCelik/weather-market-research/blob/main/CONTRIBUTIONS.md).
 - **[BTC five-minute markets](https://github.com/ErenEgeCelik/btc-5m-market-microstructure)** —
   Brownian-probit pricing, feed/book response, inventory EV and controlled policy experiments.
-  [Models and experiments](https://github.com/ErenEgeCelik/btc-5m-market-microstructure/blob/main/README.md) ·
+  [Working paper](https://github.com/ErenEgeCelik/btc-5m-market-microstructure/blob/main/paper/crypto-working-paper.pdf) ·
   [Contributions and code](https://github.com/ErenEgeCelik/btc-5m-market-microstructure/blob/main/CONTRIBUTIONS.md).
 
 I publish completed work here and at [erenege.dev](https://www.erenege.dev).

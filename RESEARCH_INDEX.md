@@ -49,8 +49,10 @@ uses book-priced one-step EV with inventory rules, not a solved Bellman or A-S o
 
 Pricing fit, forward prediction, modeled policy gains and realized trading outcomes are different
 claims. The experiment records preserve sample units, versions, model-selection limitations and
-replay assumptions under historical point settlement. The earlier paper remains available while its
-next revision is prepared from these expanded methods.
+replay assumptions under historical point settlement. The expanded working paper integrates these
+methods, numerical comparisons and limitations:
+[manuscript](https://github.com/ErenEgeCelik/btc-5m-market-microstructure/blob/main/paper/manuscript.md) /
+[PDF](https://github.com/ErenEgeCelik/btc-5m-market-microstructure/blob/main/paper/crypto-working-paper.pdf).
 
 Stable release reference: [crypto research expansion, September 2026](https://github.com/ErenEgeCelik/btc-5m-market-microstructure/tree/6db010205b3aa3b8b4ee1d5715e06c47de8023b7).
 
