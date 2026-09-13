@@ -16,5 +16,7 @@ I study how information becomes a price, a probability and an executable decisio
 I publish completed work here and at [erenege.dev](https://www.erenege.dev).
 My next research direction includes machine learning and AI.
 
+[Research evidence index](RESEARCH_INDEX.md) — methods, implementations and experiment records.
+
 [Website](https://www.erenege.dev) · [Writing](https://www.erenege.dev/writing) ·
 [Email](mailto:erenege3500@gmail.com)
